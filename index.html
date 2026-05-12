@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Stazione Cefalù | Viaggio, Pausa e Servizi</title>
+    <meta name="description" content="Nel cuore della stazione di Cefalù: biglietteria, caffetteria, gelateria, tabacchi, edicola e pranzi veloci. Il tuo punto di riferimento pratico e accogliente.">
+    <meta name="theme-color" content="#FDFBF7">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Bar Stazione Cefalù",
+      "image": "",
+      "url": "",
+      "telephone": "+390921424432",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Piazza Vittime 16 Marzo 1978",
+        "addressLocality": "Cefalù",
+        "postalCode": "90015",
+        "addressRegion": "PA",
+        "addressCountry": "IT"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "06:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "07:15",
+          "closes": "21:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Overlay Menu Mobile -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#hero" class="mobile-link">Home</a></li>
+                    <li><a href="#servizi" class="mobile-link">Servizi</a></li>
+                    <li><a href="#perche-noi" class="mobile-link">L'Esperienza</a></li>
+                    <li><a href="#contatti" class="mobile-link">Orari & Contatti</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-footer">
+                <a href="tel:0921424432" class="mobile-cta-btn">Chiama Ora</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Bar Stazione Cefalù">
+                <!-- Nuovo Logo Minimalista: un arco elegante (stazione) e una tazzina stilizzata -->
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 28C11 28 15 32 22 32C29 32 33 28 33 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M14 22V16C14 11.5817 17.5817 8 22 8C26.4183 8 30 11.5817 30 16V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M30 18H33C34.6569 18 36 19.3431 36 21C36 22.6569 34.6569 24 33 24H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <rect x="14" y="14" width="16" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <div class="logo-text-group">
+                    <span class="logo-title">Bar Stazione</span>
+                    <span class="logo-subtitle">Cefalù</span>
+                </div>
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#perche-noi">L'Esperienza</a></li>
+                    <li><a href="#contatti">Orari & Contatti</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="tel:0921424432" class="btn btn-primary btn-sm desktop-cta">
+                    <span class="btn-text">0921 424432</span>
+                </a>
+                <a href="tel:0921424432" class="btn btn-primary btn-icon mobile-cta" aria-label="Chiama">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <!-- Background Decoration -->
+            <div class="hero-bg-shape"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content" data-reveal="fade-up">
+                    <p class="hero-label">Nel cuore di Cefalù</p>
+                    <h1 class="hero-title">
+                        Il tuo punto di riferimento, <br>
+                        <span class="text-italic text-accent">tra viaggio e gusto.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Bar Stazione Cefalù unisce servizi di biglietteria, caffetteria, gelateria, tabacchi, edicola, panineria e pranzi veloci in una posizione strategica per viaggiatori, residenti e turisti.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="tel:0921424432" class="btn btn-primary btn-lg">Chiama Ora</a>
+                        <a href="#posizione" class="btn btn-outline btn-lg">Come arrivare</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro -->
+        <section class="intro">
+            <div class="container">
+                <p class="intro-statement" data-reveal="fade-up">
+                    Dalla biglietteria alla pausa caffè, dal giornale al panino, 
+                    <span class="text-accent">qui trovi tutto ciò che serve</span> 
+                    con immediatezza, eleganza e semplicità.
+                </p>
+            </div>
+        </section>
+
+        <!-- Servizi -->
+        <section class="services" id="servizi">
+            <div class="container">
+                
+                <!-- Macro Categoria 1 -->
+                <div class="services-block" data-reveal="fade-up">
+                    <div class="services-block-header">
+                        <h2 class="category-title">Servizi Viaggio</h2>
+                        <p class="category-desc">Un punto pratico per organizzare gli spostamenti e risparmiare tempo, con servizi pensati per chi parte, arriva o si muove ogni giorno.</p>
+                    </div>
+                    <div class="services-grid two-cols">
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🚆</span>
+                                <h3 class="service-title">Biglietteria Trenitalia</h3>
+                            </div>
+                            <p class="service-text">Organizza i tuoi spostamenti in treno con un servizio comodo e immediato.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🚌</span>
+                                <h3 class="service-title">Biglietteria SAIS</h3>
+                            </div>
+                            <p class="service-text">Un supporto utile anche per chi viaggia in autobus e desidera gestire tutto rapidamente.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Macro Categoria 2 -->
+                <div class="services-block" data-reveal="fade-up">
+                    <div class="services-block-header">
+                        <h2 class="category-title">Pausa e Gusto</h2>
+                        <p class="category-desc">Dalla colazione al panino, fino a una sosta veloce durante la giornata, trovi proposte pratiche e piacevoli in un ambiente accogliente.</p>
+                    </div>
+                    <div class="services-grid four-cols">
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">☕</span>
+                                <h3 class="service-title">Caffetteria</h3>
+                            </div>
+                            <p class="service-text">Caffè, bevande e pausa quotidiana con il ritmo giusto.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🍦</span>
+                                <h3 class="service-title">Gelateria</h3>
+                            </div>
+                            <p class="service-text">Una scelta ideale per concedersi un momento fresco e goloso.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🥪</span>
+                                <h3 class="service-title">Panineria</h3>
+                            </div>
+                            <p class="service-text">Soluzioni pratiche e gustose per una pausa veloce.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🍝</span>
+                                <h3 class="service-title">Pranzi Veloci</h3>
+                            </div>
+                            <p class="service-text">Perfetti per chi ha poco tempo ma non vuole rinunciare a mangiare bene.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Macro Categoria 3 -->
+                <div class="services-block" data-reveal="fade-up">
+                    <div class="services-block-header">
+                        <h2 class="category-title">Servizi Utili</h2>
+                        <p class="category-desc">Oltre al gusto, trovi anche servizi essenziali utili per chi è di passaggio e per chi vive la città ogni giorno.</p>
+                    </div>
+                    <div class="services-grid two-cols">
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">🚬</span>
+                                <h3 class="service-title">Tabacchi</h3>
+                            </div>
+                            <p class="service-text">Un servizio comodo per le esigenze quotidiane.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-top">
+                                <span class="service-icon">📰</span>
+                                <h3 class="service-title">Edicola</h3>
+                            </div>
+                            <p class="service-text">Giornali, riviste e tutto il necessario per una sosta utile e piacevole.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Perché Sceglierci -->
+        <section class="experience" id="perche-noi">
+            <div class="container experience-container">
+                <div class="experience-text" data-reveal="fade-right">
+                    <h2 class="section-heading">L'Esperienza</h2>
+                    <p class="section-subheading">Bar Stazione Cefalù è pensato per offrire comodità reale.</p>
+                    <p class="experience-desc">Qui puoi trovare servizi per il viaggio, una pausa caffè, qualcosa da mangiare e piccoli servizi utili quotidiani, tutto in un ambiente semplice, diretto e accogliente.</p>
+                </div>
+                
+                <div class="experience-features" data-reveal="fade-left">
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <div class="feature-bullet"></div>
+                            <div class="feature-content">
+                                <h4>Posizione Comoda</h4>
+                                <p>Strategica a Cefalù, ideale per chi parte, arriva o è di passaggio.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-bullet"></div>
+                            <div class="feature-content">
+                                <h4>All-in-One</h4>
+                                <p>Più servizi concentrati in un solo luogo per farti risparmiare tempo.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-bullet"></div>
+                            <div class="feature-content">
+                                <h4>Pausa Perfetta</h4>
+                                <p>Dalla colazione a un pranzo veloce, accoglienza e immediatezza garantite.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contatti & Posizione -->
+        <section class="contact-section" id="contatti">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <!-- Info Box -->
+                    <div class="contact-info" data-reveal="fade-up">
+                        <h2 class="section-heading">Orari e Contatti</h2>
+                        <p class="section-subheading">Siamo aperti ogni giorno con orari pensati per accompagnare i tuoi ritmi.</p>
+                        
+                        <div class="info-blocks">
+                            <div class="info-block">
+                                <p class="info-label">Orari d'apertura</p>
+                                <div class="schedule-row">
+                                    <span>Lunedì - Sabato</span>
+                                    <span>06:00 - 21:00</span>
+                                </div>
+                                <div class="schedule-row">
+                                    <span>Domenica</span>
+                                    <span>07:15 - 21:00</span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-block">
+                                <p class="info-label">Contatti Diretti</p>
+                                <a href="tel:0921424432" class="contact-link">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    0921 424432
+                                </a>
+                                <div class="address-line">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    Piazza Vittime 16 Marzo 1978, 90015 Cefalù (PA)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mappa -->
+                    <div class="contact-map" id="posizione" data-reveal="fade-up" style="transition-delay: 0.2s;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.5398299865664!2d14.0195561!3d38.0336214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13171f1b626e2a25%3A0x9a842b6a93b4f653!2sPiazza%20Vittime%2016%20Marzo%201978%2C%2090015%20Cefal%C3%B9%20PA!5e0!3m2!1sit!2sit!4v1715500000000!5m2!1sit!2sit" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Mappa posizione Bar Stazione Cefalù">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <svg width="36" height="36" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 28C11 28 15 32 22 32C29 32 33 28 33 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M14 22V16C14 11.5817 17.5817 8 22 8C26.4183 8 30 11.5817 30 16V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M30 18H33C34.6569 18 36 19.3431 36 21C36 22.6569 34.6569 24 33 24H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <rect x="14" y="14" width="16" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <div class="logo-text-group">
+                        <span class="logo-title" style="color:var(--bg-primary);">Bar Stazione</span>
+                        <span class="logo-subtitle" style="color:rgba(253,251,247,0.7);">Cefalù</span>
+                    </div>
+                </div>
+                
+                <div class="footer-claim">
+                    Servizi, gusto e praticità in un unico punto.
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#hero">Privacy Policy</a>
+                    <a href="#hero">Cookie Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Bar Stazione Cefalù. Tutti i diritti riservati.</p>
+                <p class="promoweb-credit">
+                    Realizzato con <span class="heart-icon">❤️</span> da <a href="https://promoweb.me" target="_blank" rel="noopener noreferrer">PromoWeb</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
